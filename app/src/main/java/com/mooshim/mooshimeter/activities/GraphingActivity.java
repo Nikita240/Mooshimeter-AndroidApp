@@ -299,7 +299,7 @@ public class GraphingActivity extends MyActivity implements GraphingActivityInte
                         public void run() {
                             refresh();
                         }
-                    },100,1000);
+                    },100,100);
                 }
             }
         });
